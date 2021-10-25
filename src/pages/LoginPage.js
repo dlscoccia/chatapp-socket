@@ -6,14 +6,14 @@ export const LoginPage = () => {
     <div>
       {' '}
       <form className="login100-form validate-form flex-sb flex-w">
-        <span className="login100-form-title mb-3">Chat - Ingreso</span>
+        <span className="login100-form-title mb-3">Ingresar</span>
 
         <div className="wrap-input100 validate-input mb-3">
           <input
             className="input100"
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Correo"
           />
           <span className="focus-input100"></span>
         </div>
@@ -23,7 +23,7 @@ export const LoginPage = () => {
             className="input100"
             type="password"
             name="password"
-            placeholder="Password"
+            placeholder="Contraceña"
           />
           <span className="focus-input100"></span>
         </div>
@@ -41,7 +41,7 @@ export const LoginPage = () => {
 
           <div className="col text-right">
             <Link to="/auth/register" className="txt1">
-              Nueva cuenta?
+              Crear cuenta?
             </Link>
           </div>
         </div>

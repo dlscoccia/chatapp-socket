@@ -5,14 +5,14 @@ export const RegisterPage = () => {
   return (
     <div>
       <form className="login100-form validate-form flex-sb flex-w">
-        <span className="login100-form-title mb-3">Chat - Registro</span>
+        <span className="login100-form-title mb-3">Crear cuenta</span>
 
         <div className="wrap-input100 validate-input mb-3">
           <input
             className="input100"
             type="text"
             name="name"
-            placeholder="Nombre"
+            placeholder="Nombre Completo"
           />
           <span className="focus-input100"></span>
         </div>
@@ -22,7 +22,7 @@ export const RegisterPage = () => {
             className="input100"
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Correo"
           />
           <span className="focus-input100"></span>
         </div>
@@ -32,7 +32,7 @@ export const RegisterPage = () => {
             className="input100"
             type="password"
             name="password"
-            placeholder="Password"
+            placeholder="Contraseña"
           />
           <span className="focus-input100"></span>
         </div>
@@ -46,7 +46,7 @@ export const RegisterPage = () => {
         </div>
 
         <div className="container-login100-form-btn m-t-17">
-          <button className="login100-form-btn">Crear cuenta</button>
+          <button className="login100-form-btn">Crear</button>
         </div>
       </form>
     </div>
